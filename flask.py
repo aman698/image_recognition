@@ -241,4 +241,4 @@ def mark_attendance():
     return redirect(url_for('attendance'))
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5021, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
